@@ -5,9 +5,8 @@ from bokeh.models import ColumnDataSource
 from bokeh.models import HoverTool
 from bokeh.models.widgets import Tabs, Panel
 
-data = df[df["Country/Region"].str.contains("Afghanistan")==True]
 
-df = pd.read_csv(r'C:\Users\djmaulana\Downloads\visdat\full_grouped.csv')
+df = pd.read_csv(r'C:\Users\djmaulana\Downloads\visdat\data\full_grouped.csv')
 
 import pandas as pd
 from bokeh.plotting import figure
